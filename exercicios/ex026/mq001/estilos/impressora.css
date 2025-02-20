@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* estilo para impressoras */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse artigo foi produzido para uma aula do Curso em Video do professor Guanabara';
+}
